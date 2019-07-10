@@ -8,7 +8,7 @@ function myAnimal() {
 }
 
 
-function yourAnimal(animal) {
+function yourAnimal() {
   // How can we make sure that this function
 animal = 'cat';  // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
@@ -16,10 +16,10 @@ animal = 'cat';  // and the above function both pass?
 }
 
 function add2(n) {
+  var two = 2;
   return n + two;
 
   // Feel free to move things around!
-  const two = 2;
 }
 
 var funkyFunction = function() {
